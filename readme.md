@@ -1,8 +1,5 @@
 
 # "HTML for Beginners"
-
-### [](https://github.com/gitdagray/html_course#full-course---10-chapters)Full Course - 10 Chapters
-
 ----------
 
 ### [](https://github.com/gitdagray/html_course#author-links)Author Links
