@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru-Ru">
+  <head>
+    <meta name="author" content="The Frontend" />
+    <meta
+      name="description"
+      content="Эта странница создана с целью изучения языка HTML5..."
+    />
+    <title>Язык HTML 5 | Изучение</title>
+
+    <style>
+      html {
+        font-size: 23px;
+      }
+      body {
+        background-color: bisque;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 500px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--================ [ Тег header ] =============-->
+    <header>
+      <h1>Всем Привет!</h1>
+    </header>
+    <hr />
+
+    <!--================ [ Тег main ] =============-->
+    <main>
+      <section>
+        <!--================ [ Тег заголовка ] =============-->
+        <h2>Я готов приступать к изучению HTML5</h2>
+        <!--================ [ Тег абзаца ] =============-->
+        <p>Для этого вам понадобится следующие 👇🏽</p>
+      </section>
+
+      <hr />
+
+      <!--================ [ Тег абзаца ] =============-->
+      <section>
+        <ul>
+          Всего пару вещей:
+          <li>...Иметь представление что такое Internet. 🌐</li>
+          <li>
+            ...Использовать
+            <abbr title="Mozilla Developer Network">MDN</abbr> или HtmlBook. 💻
+          </li>
+          <li>...Закрепить на практике полученные знания. 🏋🏽</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section>
+        <h3>А тут будет небольшой план дальнейшего развития:</h3>
+        <!--================ [ Тег сноски ] =============-->
+        <dl>
+          <dt><strong>CSS</strong></dt>
+          <dd>
+            Язык отвечабщий за визуальную часть
+            <abbr title="англ. web - паутина">Web</abbr> - странницы.
+          </dd>
+          <dt><strong>JavaScript</strong></dt>
+          <dd>
+            Используя данный язык вы можете длбавить интерективность на вашу
+            странницу.
+          </dd>
+        </dl>
+      </section>
+
+      <hr />
+      <section>
+        <h3>Тут я подготовил полезные ссылки: 😋</h3>
+        <!--================ [ Тег списка ] =============-->
+        <ol>
+          <li>
+            <!--================ [ Тег ссылки ] =============-->
+            <a
+              href="https://developer.mozilla.org/docs/Web/HTML/Element/a"
+              target="_blank"
+            >
+              <abbr title="Mozilla Developer Network">MDN</abbr>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.w3schools.com/tags/tag_img.asp#gsc.tab=0"
+              target="_blank"
+              >W3 School</a
+            >
+          </li>
+        </ol>
+      </section>
+      <hr />
+
+      <section>
+        <!--================ [ Тег выпадающего меню ] =============-->
+        <details>
+          <summary>
+            Ухх... Теперь я знаю порядок изучения
+            <abbr title="англ. web - паутина">Web</abbr>- разработки. 😎
+          </summary>
+          <p>HTML</p>
+          <p>Css</p>
+          <p>JavaScript</p>
+        </details>
+      </section>
+
+      <hr />
+      <section>
+        <h3>Если ты хочешь со мной связаться: 📱</h3>
+        <ul>
+          <li>Message: <a href="mailto:test@gmail.com">test@gmail.com</a></li>
+          <li>
+            Tel:
+            <a href="tel:+996500555222">+996500555222</a>
+          </li>
+          <li>
+            Download:
+            <a
+              href="https://images.unsplash.com/photo-1677944632340-0d14559c0ad3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1200&q=60"
+              download="true"
+              >CV</a
+            >
+          </li>
+        </ul>
+      </section>
+      <hr />
+
+      <section>
+        <h3>Так же не плохо было бы ознакомится со следующими технологиями:</h3>
+        <figure>
+          <figcaption>
+            <strong>GitHub</strong>
+          </figcaption>
+          <img
+            src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1188&q=80"
+            alt="GitHub"
+            width="500"
+            title="Здесь картинка GitHub"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure>
+          <figcaption>
+            <strong>React</strong>
+          </figcaption>
+          <img
+            src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="React"
+            width="500"
+            title="Здесь картинка React"
+            loading="lazy"
+          />
+        </figure>
+      </section>
+    </main>
+    <!--================ [ Тег form ] =============-->
+    <form action="https://httpbin.org/get" method="get">
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="E-mail"
+        autocomplete="on"
+        required
+      />
+      <br />
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Password"
+        required
+      />
+
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Message:"
+      ></textarea>
+
+      <input type="submit" placeholder="Send" />
+    </form>
+  </body>
+</html>
